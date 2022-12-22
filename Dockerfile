@@ -18,6 +18,7 @@ USER root
 # Install additional libraries
 RUN pip install jupyter jupyterlab
 RUN pip install cupy
+RUN pip install numba
 RUN pip install tqdm==4.63 matplotlib numpy pandas ripser
 
 # Create a working directory
